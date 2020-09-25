@@ -1,6 +1,5 @@
-
-# Created by https://www.toptal.com/developers/gitignore/api/node,react,firebase
-# Edit at https://www.toptal.com/developers/gitignore?templates=node,react,firebase
+# Created by https://www.toptal.com/developers/gitignore/api/vue,node,firebase
+# Edit at https://www.toptal.com/developers/gitignore?templates=vue,node,firebase
 
 ### Firebase ###
 .idea
@@ -120,17 +119,15 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
-### react ###
-.DS_*
-**/*.backup.*
-**/*.back.*
+### Vue ###
+# gitignore template for Vue.js projects
+#
+# Recommended template: Node.gitignore
 
-node_modules
+# TODO: where does this rule come from?
+docs/_book
 
-*.sublime*
+# TODO: where does this rule come from?
+test/
 
-psd
-thumb
-sketch
-
-# End of https://www.toptal.com/developers/gitignore/api/node,react,firebase
+# End of https://www.toptal.com/developers/gitignore/api/vue,node,firebase
